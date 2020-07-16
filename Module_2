@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Assignment Solution for Module 2</title>
+	<style type="text/css">
+		#box{background-color:gray;border:5px solid black;
+			margin: 80px;width:500px;height:400px;box-sizing: border-box;font:all;
+			text-align:center;font-family:Courier;font-size:25px;color:white;font-weight:bold;position:relative;top:50px;right:10px}
+			
+		#box1{background-color:Gray;border:5px solid black;
+			margin: 80px;width:500px;height:400px;box-sizing: border-box;font:all;text-align: center;font-family:Courier;font-size:25px;color:white;font-weight:bold;position:relative;bottom:430px;left:1150px }
+		#box2{background-color:gray;border:5px solid black;
+			margin: 80px;width:500px;height:400px;box-sizing: border-box;
+			font-family:Courier;text-align: center;font-size: 25px;color:white;font-weight:bold;position:relative;bottom:910px;left:575px; }		
+		#p{background-color: Violet;border:4px solid black;font-size: 40px;position:relative;bottom:45px;left:285px;width:200px;height:50px; }
+		#p1{background-color: Tomato;border:4px solid black;font-size: 40px;width:200px;height:50px;position:relative;bottom:45px;left:285px;}
+		#p2{background-color: Orange;border:4px solid black;font-size: 40px;width:250px;height:50px;position:relative;bottom:45px;left:235px;}
+		h1{text-align:center;font-family:Cambria;font-size: 80px }
+		
+		body{margin:0;padding:20px;background-color: LightBlue;}
+	</style>
+</head>
+
+<body>
+	<h1>Our Menu</h1>
+	<div id="box">
+		<div id="content">
+			<p id="p">Chicken</p>
+			<ul class="box">
+				<li>Grilled Chicken Pasta</li>
+				<li>Mango Chile Chicken</li>
+				<li>Chicken Enchiladas</li>
+				<li>Chicken Salad</li>
+				<li>Chicken Enchiladas</li>
+				<li>Chicken Salad</li>
+			</ul>
+		</div>
+	</div>
+	<div id="box1">
+		<div id="content1",class="relative"><p id="p1">Seafood</p>
+		<ul class="box">
+				<li>Spicy Shrimp Tacos</li>
+				<li>Ancho Salmon</li>
+				<li>Cajun Shrimp Pasta</li>
+				<li>Seafood Pizza Meal</li>
+				<li> Jumbo Coconut Shrimp</li>
+				<li>Wild-Caught Snow Crab</li>
+				<li>Cod Fish and Chips </li> 
+			</ul></div>
+	</div>
+	<div id="box2">
+		<div id="content2"><p id="p2">Vegetables</p>
+			<ul class="box">
+				<li>Black Bean & Veggie Fajitas</li>
+				<li>Asparagus & Garlic Roasted Tomatoes</li>
+				<li>Sweet Corn on the Cob</li>
+				<li>Santa Fe Salad</li>
+				<li>Fried Pickles (No Ranch Dressing)</li>
+			</ul></div>
+	</div>
+
+	
+</body>
+</html>
